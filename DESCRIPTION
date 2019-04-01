@@ -1,0 +1,12 @@
+Package: bwe
+Type: Package
+Title: Estimates Bayesian Word Embeddings
+Version: 0.1
+Date: 2018-11-12
+Author: Adam Lauretig
+Maintainer: Adam Lauretig <adlauretig@gmail.com>
+Description: This package implements a Bayesian word embedding model, estimated with variational inference. It also allows the user to rotate embeddings, identifying them in the manner suggested by Rivers (2003).
+License: What license is it under?
+Imports: data.table,Matrix,quanteda (>= 1.3.4),Rcpp (>= 0.12.19)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 6.1.0
