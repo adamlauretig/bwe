@@ -10,7 +10,6 @@
 #' @import MASS
 #' @import quanteda
 #' @return A \code{data.table}. Contains each word, and its position relative to the scaling word(s).
-#' @export
 
 scaling_word_embeddings <- function(target_word, bwe_object, trim = TRUE){
   if(length(target_word) > 2){
