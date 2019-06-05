@@ -6,3 +6,4 @@ To install:
 
 devtools::install_github("adamlauretig/bwe")
 ```
+For an example, see https://github.com/adamlauretig/bwe_application_naacl_2019
